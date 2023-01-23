@@ -101,6 +101,10 @@ main {
 .d-block {
     display: block !important;
 }
+.attribution {
+    text-align: center;
+    padding-bottom: 10px;
+}
 @media(max-width: 575px) {
     .card {
         flex-direction: column;
