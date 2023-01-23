@@ -42,14 +42,11 @@ main {
 .card-img-wrapper, .card-body-wrapper {
     max-width: 50%;
 }
-.card-img-wrapper {
-    border-radius: 20px 0 0 20px;
-}
 .card-img-wrapper img {
     display: block;
     width: 100%;
     object-fit: cover;
-    border-radius: inherit;
+    border-radius: 20px 0 0 20px;
 }
 .card-body-wrapper {
     padding: 15px 25px;
@@ -104,14 +101,6 @@ main {
 .d-block {
     display: block !important;
 }
-@media(min-width: 576px) {
-    .d-sm-block {
-        display: block !important;
-    }
-    .d-sm-none {
-        display: none !important;
-    }
-}
 @media(max-width: 575px) {
     .card {
         flex-direction: column;
@@ -121,7 +110,7 @@ main {
     .card-img-wrapper, .card-body-wrapper {
         max-width: 100%;
     }
-    .card-img-wrapper {
+    .card-img-wrapper img {
         border-radius: 20px 20px 0 0;
     }
     .card-body-wrapper {

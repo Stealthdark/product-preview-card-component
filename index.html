@@ -15,8 +15,12 @@
     <div class="container">
       <div class="card">
         <div class="card-img-wrapper">
-          <img src="images/image-product-desktop.jpg" alt="image-product-desktop" class="d-none d-sm-block">
-          <img src="images/image-product-mobile.jpg" alt="image-product-mobile" class="d-block d-sm-none">
+          <picture>
+            <source media="(min-width: 576px)" srcset="images/image-product-desktop.jpg">
+            <img src="images/image-product-mobile.jpg" alt="image-product-mobile" class="">
+          </picture>
+          <!-- <img src="images/image-product-desktop.jpg" alt="image-product-desktop" class="d-none d-sm-block">
+          <img src="images/image-product-mobile.jpg" alt="image-product-mobile" class="d-block d-sm-none"> -->
         </div>
         <div class="card-body-wrapper">
           <h1 class="h6 text-gray card-title">PERFUME</h1>
